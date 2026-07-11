@@ -1,0 +1,59 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.fdiv {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    padding: 20px 10px;
+}
+.mid {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+}
+.fhead {
+    background-color: #FFFFFF;   
+}
+.herosec{
+    background-image: url(banner.jpg);
+    /* background-color: rgb(176, 176, 176); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    /* alination of writings */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.hero1st{
+    justify-content: space-around;
+    margin: 200px;
+    color: white;
+}
+.hero2nd{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.button {
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: black;
+    color: rgb(161, 160, 203);
+    padding: 10px;
+    align-items: center;
+    
+}
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 100px;
+    
+}
