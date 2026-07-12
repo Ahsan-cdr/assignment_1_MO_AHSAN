@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1300px;
-    padding: 20px 10px;
+    padding: 20px 0px 20px 0px;
 }
 .mid {
     display: flex;
@@ -44,16 +44,37 @@
     border: solid 1px;
     border-radius: 10px;
     border-color: black;
-    color: rgb(161, 160, 203);
+    color: rgb(255, 255, 255);
     padding: 10px;
     align-items: center;
-    
+    text-decoration: black;
 }
 .intro{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 100px;
     
 }
+.pheader{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.all_package{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    gap: 5px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.packagebox, .packageboxm{
+    border: solid;
+    border-radius: 20px;
+    align-items: center;
+    padding: 80px;
+}
+/* comment */
