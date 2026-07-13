@@ -16,6 +16,11 @@
     justify-content: space-between;
     gap: 40px;
 }
+.mid:hover{
+  color: #4c505a;
+  cursor: pointer;
+  text-decoration: none;
+}
 .fhead {
     background-color: #FFFFFF;   
 }
@@ -52,8 +57,9 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 100px;
+  align-items: center;
   max-width: 1300px;
+  margin-top: 100px;
 }
 .intro{
     display: grid;
@@ -87,11 +93,22 @@
     margin-top: 50px;
     margin-bottom: 200px;
 }
+.package{
+  text-align: center;
+  margin: 20px;
+}
+.buttonalign{
+  text-align: center;
+  margin: 20px;
+}
 .packagebox, .packageboxm{
     border: solid;
     border-radius: 20px;
     align-items: center;
     padding: 80px;
+}
+.packageboxm{
+  background-color: rgb(204, 203, 203);
 }
 /* comment */
 /*  */
@@ -107,7 +124,7 @@
 
 /* Main Container Wrapper */
 .conference-bottom-section {
-  max-width: 1600px;
+  max-width: 3000px;
   margin: 0px;
   padding: 70px 20px;
   display: flex;
