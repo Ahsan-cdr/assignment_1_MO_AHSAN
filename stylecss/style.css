@@ -41,21 +41,37 @@
     margin-bottom: 200px;
 }
 .button {
-    border: solid 1px;
-    border-radius: 10px;
-    border-color: black;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    align-items: center;
-    text-decoration: black;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  border: none;
+  padding: 10px;
+}
+.speakers_img{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  max-width: 1300px;
 }
 .intro{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    max-width: 1300px;
-    margin: 100px;
-    
+    margin: 80px;
+    align-items: center;
+}
+.intro_h{
+  text-align: center;
+}
+.imj{
+  border-radius: 20px;
+}
+.introbox{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
 }
 .pheader{
     text-align: center;
@@ -78,3 +94,168 @@
     padding: 80px;
 }
 /* comment */
+/*  */
+/*  */
+/* General Resets & Font (Matches the image's modern aesthetic) */
+.conference-bottom-section, .simple-copyright {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #111827; /* Dark text for readability */
+}
+
+/* Main Container Wrapper */
+.conference-bottom-section {
+  max-width: 1600px;
+  margin: 0px;
+  padding: 70px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  gap: 40px; /* Space between upper and lower div */
+}
+
+/* =========================================
+   Upper Div: Job Placement Section
+   ========================================= */
+.job-placement-container {
+  background-color: #f3f0ff; /* Light purple to match the placeholder vibe */
+  border-radius: 16px;
+  padding: 60px 40px;
+  text-align: center;
+  border: 1px solid #e9d5ff;
+}
+
+.job-placement-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.job-placement-content .stat-highlight {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #3b82f6; /* Matching the blue button color from the image */
+  margin: 0 0 10px 0;
+  line-height: 1;
+}
+
+.job-placement-content h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.job-placement-content p {
+  font-size: 1.125rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* =========================================
+   Lower Div: Newsletter Subscription
+   ========================================= */
+.newsletter-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+}
+
+.newsletter-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.newsletter-content p {
+  font-size: 1.05rem;
+  color: #4b5563;
+  line-height: 1.5;
+  margin: 0 0 25px 0;
+}
+
+/* Newsletter Form Styling */
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.email-input {
+  flex: 1;
+  padding: 14px 20px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.email-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.subscribe-btn {
+  background-color: #2563eb; /* Exact blue from the image's buttons */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* =========================================
+   Responsive Adjustments for Mobile
+   ========================================= */
+@media (max-width: 600px) {
+  .job-placement-content .stat-highlight {
+    font-size: 3rem;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+  }
+}
+
+/* 
+ */
+ /*  */
+.simple-copyright {
+  border-top: 1px solid #acacac;
+  padding: 30px 20px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.copyright-content p {
+  color: #4c505a;
+  font-size: 0.875rem;
+  margin: 15px;
+}
+.logoleft{
+    margin: 20px 20px;
+}
+
